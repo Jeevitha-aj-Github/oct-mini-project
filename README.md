@@ -1,42 +1,30 @@
-OCT Mini Project
+# OCT Mini Project
 
-This project is a beginner-friendly exploration of automated analysis of retinal OCT images.
-It includes basic preprocessing, intensity profiling, and edge detection to highlight important retinal structures.
+This mini project explores automated analysis of retinal OCT B-scans.  
+It demonstrates a simple workflow for going from a raw clinical-style scan to  
+basic structural features that could feed into structure–function models.
 
-This is an early version of the project and will grow gradually with more analysis and visualisation.
+## What this project shows
 
-What This Project Demonstrates
+- loading and visualising a retinal OCT B-scan
+- extracting an intensity profile along a central scan line
+- simple automated retinal layer boundary highlighting using Sobel edge detection
+- basic retinal morphometry foundations (foveal pit and layer transitions)
+- early steps towards machine-learning-ready OCT features
 
-simple automated retinal layer boundary detection
+## Skills demonstrated
 
-basic retinal morphometry
+- Python programming
+- scientific plotting with Matplotlib
+- numerical processing with NumPy
+- basic computer vision (Sobel edge detection)
+- image analysis applied to retinal OCT scans
 
-structure–function analysis foundations
+## How to run
 
-clinical OCT preprocessing steps
+1. Clone the repository:
 
-early steps toward machine-learning-ready OCT features
+```bash
+git clone https://github.com/YOUR-USERNAME/oct-mini-project.git
+cd oct-mini-project
 
-Skills Shown
-
-Python programming
-
-scientific plotting (Matplotlib)
-
-numerical processing (NumPy)
-
-basic computer vision (Sobel edge detection)
-
-image analysis applied to retinal OCT scans
-
-Tools Used
-
-Python
-
-NumPy
-
-Matplotlib
-
-SciPy (Sobel filter)
-
-Jupyter Notebook
