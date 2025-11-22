@@ -1,27 +1,9 @@
 OCT Mini Project
 
-This mini-project explores basic analysis of a retinal OCT B-scan. The goal is to understand simple image-processing steps that help visualise retinal structure, which is directly relevant to structure–function work in vision science.
+This project is a beginner-friendly exploration of automated analysis of retinal OCT images.
+It includes preprocessing, intensity profiling, and simple edge detection to highlight retinal layer boundaries.
 
-What This Project Does
-1. Intensity Profile Extraction
-
-Loads a retinal OCT B-scan
-
-Takes the central horizontal scan line
-
-Plots pixel intensity across the retina
-
-Shows peaks and dips that correspond to major retinal layers
-
-2. Sobel Edge Detection
-
-Applies the Sobel operator to detect edges in the OCT image
-
-Highlights retinal layer boundaries
-
-Displays original vs edge-detected images side-by-side
-
-These steps form the foundation of automated OCT analysis.
+This is an early version, and the project will grow gradually with more advanced analysis.
 
 Project Structure
 oct-mini-project/
@@ -36,11 +18,12 @@ oct-mini-project/
 │
 └── README.md
 
-Why This Matters
 
-The methods used here are the first steps toward:
+What This Project Demonstrates
 
-automated layer boundary detection
+The methods used here are the first essential steps for:
+
+automated retinal layer boundary detection
 
 retinal morphometry
 
@@ -50,7 +33,17 @@ clinical OCT processing
 
 machine learning applications for retinal imaging
 
-This mini-project shows practical skills in Python, scientific plotting, and basic computer vision applied to retinal data.
+This mini-project shows practical skills in:
+
+Python
+
+scientific plotting (Matplotlib)
+
+numerical processing (NumPy)
+
+basic computer vision (Sobel edge detection)
+
+All applied specifically to retinal OCT data.
 
 Tools Used
 
@@ -60,8 +53,6 @@ NumPy
 
 Matplotlib
 
-SciPy
+SciPy (Sobel filter)
 
-Summary
-
-This is a simple but meaningful project demonstrating the basics of OCT image analysis, including intensity profiling and edge-based visualisation of retinal layers. It serves as a foundational step toward deeper quantitative retinal imaging research.
+Jupyter Notebook
