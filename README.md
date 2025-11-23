@@ -27,4 +27,7 @@ basic structural features that could feed into structure–function models.
 ```bash
 git clone https://github.com/Jeevitha-aj-Github/oct-mini-project.git
 
+### 🔍 Link to Retinal Biomarker Research  
+The techniques in this project (intensity profiling, layer detection and structural feature extraction) are directly useful for identifying retinal biomarkers in OCT scans. These types of features can be linked to functional or clinical outcomes in precision medicine projects.
+
 
