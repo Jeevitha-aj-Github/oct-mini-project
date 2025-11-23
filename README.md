@@ -25,6 +25,6 @@ basic structural features that could feed into structure–function models.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/oct-mini-project.git
-cd oct-mini-project
+git clone https://github.com/Jeevitha-aj-Github/oct-mini-project.git
+
 
